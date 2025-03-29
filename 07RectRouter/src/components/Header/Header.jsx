@@ -1,6 +1,6 @@
 import React from 'react'
-import {Link, NavLink} from 'react-router'
-//we cannot use a tag because it reload the whole page but in react the dom will goes and inject new value so here we use
+import {Link, NavLink} from 'react-router-dom'
+//we cannot use 'a' tag because it reload the whole page but in react the dom will goes and inject new value so here we use
 //Link tag
 export default function Header() {
     return (
